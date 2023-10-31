@@ -1,0 +1,195 @@
+html{
+   font-size: 16px; 
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url('coolvetica_rg.otf');
+}
+@font-face {
+    font-family: 'Pricedown';
+    src: url('pricedown_bl.otf');
+}
+body{
+    background-color:#F6F5EB; 
+    max-width: 70.25rem;
+}
+header{
+    margin: 0 0 0 rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav{
+    color: #BF2206;
+    font-family:'Coolvetica';
+    font-size: 32pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    
+}
+footer{
+   font-family: 'Pricedown'; 
+   color: #2122BD;
+   font-size: 32pt;
+   width: 35rem;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#contact_body{
+    background-color:#BD9100;
+}
+#header_home{
+    
+    font-family: 'Pricedown';
+    font-size: 48pt;
+    color: #2122BD;
+
+}
+#about{
+    text-decoration: none;
+    color: #2122BD;
+}
+#contact{
+    text-decoration: none;
+    color: #2122BD;
+}
+#resume{
+    text-decoration: none;
+    color: #2122BD;
+}
+#para_about_{
+ font-family: 'Coolvetica';
+ font-size: 32pt;
+ color: #BF2206;
+}
+#contactlinks{
+    font-family: 'Coolvetica';
+    font-size: 40pt;
+}
+#graphicsbody{
+    background-color: #28702D;
+    font-family: 'Pricedown';
+    font-size: 48pt;
+   
+}
+#radthrash{
+    font-family: 'Coolvetica';
+    color: #BD9100;
+}
+#radh1{
+    font-family: 'Pricedown';
+}
+#DL_H1{
+   font-family: 'Pricedown';
+   color: #BD9100; 
+}
+#DL_H3{
+    font-family: 'Coolvetica';
+   color: #BD9100;
+}
+#dzh1{
+    font-family: 'Pricedown';
+    color: #BD9100;
+ }
+#dzh3{
+    font-family: 'Coolvetica';
+    color: #BD9100;
+ }
+
+#dzhpt2{
+    font-family: 'Coolvetica';
+    color: #BD9100;
+ }
+ #MM1{
+    font-family: 'Pricedown';
+   color: #BD9100;
+}
+#MM2{
+    font-family: 'Coolvetica';
+   color: #BD9100;
+}
+#MM3{
+    font-family: 'Coolvetica';
+   color: #BD9100;
+}
+#graphics_footer{
+    color: #BD9100;
+}
+#photo_body{
+    background-color: #BF2206;
+    font-family: 'Pricedown';
+    font-size: 32pt;
+
+}
+#photoh1{
+    color: #F6F5EB;
+}
+#phototext1{
+    color: #F6F5EB;
+    font-family: 'Coolvetica';
+}
+#phototext2{
+    color:#F6F5EB;
+    font-family: 'Coolvetica';
+}
+#edenh1{
+    color: #F6F5EB;
+}
+#eden2{
+    color: #F6F5EB;
+    font-family: 'Coolvetica';
+}
+#eden3{
+    color: #F6F5EB;
+    font-family: 'Coolvetica';
+}
+#heritage1{
+    color: #F6F5EB;
+}
+#heritage2{
+    color: #F6F5EB;
+    font-family: 'Coolvetica';
+}
+#heritage3{
+    color: #F6F5EB;
+    font-family: 'Coolvetica';
+}
+#nav_home{
+    width: 966px;
+height: 82px;
+flex-shrink: 0;
+}
+a :hover {
+    color: #579CEB;
+    text-decoration: none;
+}
+section{
+    margin: 9.25rem auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
+#byline{
+    grid-column: 2/12;
+    text-align: center;
+}
+#takealook{
+    grid-column: 1/7;
+}
+#duome{
+    grid-column: 7/12;
+}
+#photoblock{
+    width: 1440px;
+height: 1317px;
+flex-shrink: 0;
+}
